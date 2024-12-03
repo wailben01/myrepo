@@ -120,7 +120,7 @@ function setup() {
 }
 
 function draw() {
-  image(imagebg, 0, 0, width+1200, height+600);
+  image(imagebg, 0, 0, width+1200, height+1000);
 
 
   target = createVector(mouseX, mouseY);
