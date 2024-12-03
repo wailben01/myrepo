@@ -12,7 +12,7 @@ let circleRadiusSlider, separationSlider, avoidSlider,maxSpeedSlider;
 let circleRadius;
 
 function preload() {
-  // Load the meteor image (ensure the file path is correct)
+  // charger les images 
   meteorImage = loadImage("6e29ea6155cb423688d3db7a1a13465d.png");
   vehiculeimage=loadImage("v.png");
   missileimage=loadImage("1261912.png");
@@ -115,7 +115,7 @@ circleRadiusLabel.style('color', 'white'); // Couleur du texte
 
 // Créer le slider
 circleRadiusSlider = createSlider(10, 300, 30);
-circleRadiusSlider.position(190, 25);
+circleRadiusSlider.position(190, 30);
   
   
 
