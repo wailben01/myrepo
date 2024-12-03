@@ -45,7 +45,7 @@ function creerUnSlider(label, min, max, val, step, posX, posY, propriete) {
 function creerSlidersPourProprietesVehicules() {
   // paramètres de la fonction custom de création de sliders :
   // label, min, max, val, step, posX, posY, propriete des véhicules
-  creerUnSlider("Rayon du cercle", 10, 200, 50, 1, 10, 20, "wanderRadius");
+  
   
   creerUnSlider("Deviation maxi", 0, PI/2, 0.3, 0.01, 10, 60, "displaceRange");
   creerUnSlider("Vitesse maxi", 1, 20, 8, 0.1, 10, 80, "maxSpeed");
