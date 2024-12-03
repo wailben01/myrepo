@@ -116,8 +116,7 @@ circleRadiusLabel.style('color', 'white'); // Couleur du texte
 // Créer le slider
 circleRadiusSlider = createSlider(10, 300, 30);
 circleRadiusSlider.position(10, 100);
-  circleRadiusSlider = createSlider(10, 300, 30);
-  circleRadiusSlider.position(10, 10);
+  
   
 
 
