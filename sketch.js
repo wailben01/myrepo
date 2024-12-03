@@ -109,7 +109,13 @@ function setup() {
     r: 100
   });
 
+let circleRadiusLabel = createP("Rayon du cercle du leader :");
+circleRadiusLabel.position(10, 10); // Position au-dessus du slider
+circleRadiusLabel.style('color', 'white'); // Couleur du texte
 
+// Créer le slider
+circleRadiusSlider = createSlider(10, 300, 30);
+circleRadiusSlider.position(10, 100);
   circleRadiusSlider = createSlider(10, 300, 30);
   circleRadiusSlider.position(10, 10);
   
